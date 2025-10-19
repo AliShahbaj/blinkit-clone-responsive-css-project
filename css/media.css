@@ -40,4 +40,10 @@
   .category-item {
     flex-basis: 25%;
   }
+  .product-cards {
+    padding: 0px 10px;
+  }
+  .product-card {
+    flex-basis: 49%;
+  }
 }

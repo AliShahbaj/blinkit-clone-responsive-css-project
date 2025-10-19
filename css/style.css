@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 2px 0px #ccc;
+  background-color: white;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  gap: 30px;
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding: 22px 30px;
+  border-right: 1px solid #ccc;
+}
+.headerAddress {
+  padding: 20px 30px;
+}
+.headerAddress h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.headerAddress p {
+  font-size: 14px;
+}
+.headerSearch {
+  flex-grow: 1;
+  display: flex;
+  background-color: #f8f8f8;
+  border: 1px solid #f4f4f4;
+  border-radius: 15px;
+}
+.headerSearch button {
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+}
+.headerSearch input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+}
+.headerSearch inpu:focus {
+  outline: note;
+}
+.headerBtn {
+  display: flex;
+  margin-right: 40px;
+  gap: 40px;
+}
+.headerBtn button{
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  padding: 15px;
+}
+.headerBtn button:last-child{
+  background-color: rgb(12, 131, 31);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.banner-section {
+  max-width: 1280px;
+  margin: auto;
+}
+.banner-section img {
+  width: 100%;
+}
+
+.widget-section {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+.widget-section .widget-card {
+  flex-basis: 26%;
+  margin: 0.5%;
+}
+.widget-card img {
+  width: 100%;
+}
+
+.categories-section {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.category-item {
+  flex-basis: 12.5%;
+}
+.category-item img {
+  width: 100%;
+}
+.product-section {
+  max-width: 1280px;
+  margin: auto;
+}
+.product-heading {
+  margin-top: 20px;
+}
+.product-heading h2 {
+  font-size: 22px;
+}
+.product-cards {
+  width: 100%;
+  display: flex;
+  margin: 0px 25px;
+}
+.product-card {
+  flex-basis: 15%;
+  border: 1px solid #ccc;
+}
+.product-image {
+  text-align: center;
+}
+.product-card img {
+  width: 70%;
+}
+.product-image p {
+  background-color: #f8f8f8;
+  display: flex;
+  width: 70px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  gap: 5px;
+}
+.product-image p img {
+  width: 25%;
+}

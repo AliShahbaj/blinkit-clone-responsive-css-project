@@ -1,0 +1,43 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .logo {
+    padding: 10px;
+    border-right: 1px solid #ccc;
+  }
+  .headerAddress {
+    padding: 10px;
+  }
+  .headerAddress p {
+    font-size: 12px;
+  }
+  .headerAddress h3 {
+    font-size: 15px;
+  }
+  .headerLeft {
+    justify-content: center;
+  }
+  .headerSearch button {
+    padding: 10px;
+  }
+  .headerBtn {
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    bottom: 0px;
+    margin-right: 0px;
+    background-color: #fff;
+  }
+  .banner-section {
+    display: none;
+  }
+  .widget-section {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .category-item {
+    flex-basis: 25%;
+  }
+}
